@@ -1,0 +1,1358 @@
+body {
+  font-family: 'Zen Antique', serif;
+
+}
+
+.photo-header-background {
+  width: 100%;
+  height: 100vh;
+  padding-top: 650px;
+  padding-left: 1000px;
+  border: 1px solid #000000;
+  margin-top: -8px;
+  margin-left: -8px;
+  background-image: url(../img/header-background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-style: none;
+  border-radius: 0px 0px 25px 25px;
+  white-space: nowrap;
+
+}
+
+.header-addreds-one {
+  margin-top: -500px;
+  font-size: 50px;
+  margin-left: 100px;
+  color: #edf8f2;
+  font-family: 'Irish Grover', cursive;
+  white-space: nowrap;
+
+}
+
+.header-addreds-two {
+  margin-left: 100px;
+  margin-top: -25px;
+  font-size: 45px;
+  color: #E1E1E1;
+  font-family: 'Libre Baskerville', serif;
+  white-space: nowrap;
+
+
+}
+
+.header-addreds-three {
+  margin-top: -20px;
+  margin-left: 100px;
+  color: #FF3A00;
+  white-space: nowrap;
+
+
+}
+
+.button-watch-menu {
+
+  max-width: 150px;
+  max-height: 40px;
+  min-width: 150px;
+  min-height: 40px;
+  border: 2px solid #FF3A00;
+  border-radius: 25px;
+  background-color: #FF3A00;
+  color: #FFFFFF;
+  margin-left: 100px;
+  margin-top: 30px;
+  white-space: nowrap;
+
+
+}
+
+.button-watch-menu:hover {
+  background-color: #FF3A00;
+}
+
+
+.background-color-logoname {
+  max-width: 200px;
+  max-height: 70px;
+  min-width: 200px;
+  min-height: 70px;
+  background-color: #1e2128;
+  margin-top: -400px;
+  margin-left: -8px;
+  border-radius: 0px 0px 50px 0px;
+  white-space: nowrap;
+
+}
+
+.logoname-one {
+  margin-top: -55px;
+  margin-left: 40px;
+  color: #edf8f2;
+  font-family: 'Irish Grover', cursive;
+  white-space: nowrap;
+
+}
+
+.logoname-two {
+
+  font-family: 'Irish Grover', cursive;
+  margin-top: -47px;
+  margin-left: 107px;
+  color: #FF3A00;
+  white-space: nowrap;
+
+
+}
+
+.logo {
+  width: 30px;
+  margin-top: -52px;
+  display: block;
+  white-space: nowrap;
+
+}
+
+.Facebook-logo {
+  width: 20px;
+  display: block;
+  white-space: nowrap;
+
+}
+
+.button-facebook {
+  background-color: #edf8f2;
+  border-style: none;
+  margin-left: 950px;
+  margin-top: 230px;
+  white-space: nowrap;
+
+
+
+}
+
+.location-logo {
+  width: 20px;
+  display: block;
+  white-space: nowrap;
+
+}
+
+.button-location {
+  background-color: #edf8f2;
+  border-style: none;
+  margin-left: 950px;
+  margin-top: 30px;
+  white-space: nowrap;
+
+}
+
+.phone-logo {
+  width: 20px;
+  display: block;
+}
+
+
+
+.button-phone {
+  background-color: #edf8f2;
+  border-style: none;
+  margin-left: 950px;
+  margin-top: 30px;
+  white-space: nowrap;
+
+}
+
+.delivery-menu {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  border-radius: 25px;
+  margin-top: 350px;
+  margin-left: 320px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 20px 50px #00000029;
+  border-style: none;
+  display: block;
+  font-family: 'Libre Baskerville', serif;
+  white-space: nowrap;
+
+
+
+}
+
+.features-phone-address {
+  margin-top: 5px;
+}
+
+.features-delivery-para {
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+.delivery-logo-img {
+
+  width: 60px;
+  margin-top: 10px;
+  white-space: nowrap;
+
+}
+
+.delivery-menu:hover {
+
+  background-color: #FF3A00;
+  color: #FFFFFF;
+  white-space: nowrap;
+
+}
+
+
+.phone-menu {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  border-style: none;
+  box-shadow: 0px 20px 50px #00000029;
+  border-radius: 25px;
+  margin-left: 100px;
+  background-color: #FFFFFF;
+  margin-top: -100px;
+  display: block;
+  font-family: 'Libre Baskerville', serif;
+  white-space: nowrap;
+
+}
+
+
+
+.features-phone-para {
+  font-size: 15px;
+  margin-top: -10px;
+
+}
+
+
+
+
+.phone-logo-img {
+  width: 80px;
+  margin-top: 10px;
+  white-space: nowrap;
+
+}
+
+.phone-menu:hover {
+  background-color: #FF3A00;
+  color: #FFFFFF;
+  white-space: nowrap;
+
+}
+
+
+
+.menu-logo-img {
+  width: 60px;
+  margin-top: 0px;
+}
+
+.menu {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  border-style: none;
+  box-shadow: 0px 20px 50px #00000029;
+  border-radius: 25px;
+  margin-left: 320px;
+  background-color: #FFFFFF;
+  margin-top: -80px;
+  display: block;
+  font-family: 'Libre Baskerville', serif;
+  display: block;
+  white-space: nowrap;
+
+}
+
+.features-menu-address {
+  margin-top: 5px;
+}
+
+.features-menu-para {
+  font-size: 15px;
+  margin-top: -5px;
+}
+
+
+.menu:hover {
+  background-color: #FF3A00;
+  color: #FFFFFF;
+}
+
+.location-menu {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  border-style: none;
+  box-shadow: 0px 20px 50px #00000029;
+  border-radius: 25px;
+  margin-left: 100px;
+  background-color: #FFFFFF;
+  margin-top: -100px;
+  font-family: 'Libre Baskerville', serif;
+  display: block;
+  white-space: nowrap;
+
+
+}
+
+.location-logo-img {
+  width: 80px;
+  margin-top: -50px;
+  white-space: nowrap;
+
+}
+
+
+.location-menu:hover {
+  background-color: #FF3A00;
+  color: #FFFFFF;
+}
+
+
+.delivery-data {
+  text-align: center;
+  margin-top: -500px;
+  margin-left: 500px;
+  display: block;
+  font-size: 25px;
+  font-family: 'Libre Baskerville', serif;
+  white-space: nowrap;
+
+
+}
+
+.delivery-button-data {
+
+  min-width: 100px;
+  min-height: 30px;
+  max-width: 100px;
+  max-height: 30px;
+  border-radius: 25px;
+  border: 1px solid #FF3A00;
+  margin-left: -100px;
+  background-color: #FFFFFF;
+  white-space: nowrap;
+
+}
+
+.delivery-button-data:hover {
+  background-color: #FF3A00;
+  color: #FFFFFF;
+}
+
+.para-delivery-data {
+  font-family: 'Libre Baskerville', serif;
+  white-space: nowrap;
+
+
+}
+
+
+.delivery-data-address {
+  color: #FF3A00;
+  white-space: nowrap;
+
+}
+
+.menu-data {
+
+  text-align: center;
+  margin-top: -252px;
+  margin-left: 500px;
+  font-size: 25px;
+  font-family: 'Libre Baskerville',
+    serif;
+  display: block;
+  white-space: nowrap;
+
+}
+
+.menu-button-data {
+
+  min-width: 100px;
+  min-height: 30px;
+  max-width: 100px;
+  max-height: 30px;
+  border-radius: 25px;
+  border: 1px solid #FF3A00;
+  margin-left: -100px;
+  background-color: #FFFFFF;
+  white-space: nowrap;
+
+}
+
+
+.menu-button-data:hover {
+  background-color: #FF3A00;
+  color: #FFFFFF;
+}
+
+.menu-data-address {
+  color: #FF3A00;
+}
+
+
+.location-data {
+
+  text-align: center;
+  margin-top: -252px;
+  margin-left: 500px;
+  display: block;
+  font-size: 25px;
+  font-family: 'Libre Baskerville',
+    serif;
+  white-space: nowrap;
+
+}
+
+.location-button-data {
+
+  min-width: 100px;
+  min-height: 30px;
+  max-width: 100px;
+  max-height: 30px;
+  border-radius: 25px;
+  border: 1px solid #FF3A00;
+  margin-left: -100px;
+  background-color: #FFFFFF;
+
+  white-space: nowrap;
+
+}
+
+.location-button-data:hover {
+  background-color: #FF3A00;
+  color: #FFFFFF;
+}
+
+.location-data-address {
+  color: #FF3A00;
+  white-space: nowrap;
+
+}
+
+
+
+.phone-data {
+  text-align: center;
+  margin-top: -252px;
+  margin-left: 500px;
+  display: block;
+  font-size: 25px;
+  font-family: 'Libre Baskerville',
+    serif;
+  white-space: nowrap;
+
+}
+
+.phone-button-data {
+
+  min-width: 100px;
+  min-height: 30px;
+  max-width: 100px;
+  max-height: 30px;
+  border-radius: 25px;
+  border: 1px solid #FF3A00;
+  margin-left: -100px;
+  background-color: #FFFFFF;
+  white-space: nowrap;
+
+}
+
+.phone-button-data:hover {
+  background-color: #FF3A00;
+  color: #FFFFFF;
+}
+
+.phone-data-address {
+  color: #FF3A00;
+}
+
+.isHidden {
+  visibility: hidden;
+}
+
+.active {
+  visibility: visible
+}
+
+.menu-header-section-menu {
+  display: block;
+  margin-top: -260px;
+  margin-left: 450px;
+  font-size: 40px;
+  font-family: 'Libre Baskerville', serif;
+  white-space: nowrap;
+
+
+
+}
+
+.section-menu {
+  border: solid 1px #000000;
+  border-radius: 50px;
+  margin-top: 350px;
+  margin-left: 100px;
+  max-width: 800px;
+  max-height: 200px;
+  min-height: 180px;
+  min-width: 800px;
+  border-style: none;
+  box-shadow: 0px 20px 50px #0000002E;
+  white-space: nowrap;
+
+}
+
+.pizza-logo-menu {
+  width: 80px;
+  margin-top: 20px;
+
+}
+
+.button-pizza-section-menu {
+  background-color: #FFFFFF00;
+  max-width: 150px;
+  min-width: 150px;
+  max-height: 170px;
+  min-height: 170px;
+  margin-left: 330px;
+  margin-top: 5px;
+  text-align: center;
+  border-radius: 50px;
+  border-style: none;
+  white-space: nowrap;
+
+}
+
+.pizza-address-section-menu {
+  font-size: 30px;
+  margin-top: 18px;
+  margin-left: 0px;
+  font-family: 'Libre Baskerville', serif;
+
+}
+
+.button-pizza-section-menu:hover {
+  background-color: #FF3A00;
+  color: #FFFFFF;
+
+
+}
+
+.seafood-logo-section-menu {
+  width: 200px;
+  margin-left: -30px;
+  margin-top: -5px
+}
+
+.button-seafood-section-menu {
+  min-width: 150px;
+  min-height: 170px;
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: -175px;
+  margin-left: 200px;
+  border-style: none;
+  border-radius: 50px;
+  background-color: #FFFFFF00;
+  display: block;
+  white-space: nowrap;
+
+}
+
+.seafood-address-section-menu {
+  font-size: 30px;
+  margin-top: -10px;
+  font-family: 'Libre Baskerville', serif;
+
+
+}
+
+.button-seafood-section-menu:hover {
+  background-color: #FF3A00;
+  color: #FFFFFF;
+  white-space: nowrap;
+
+}
+
+.candies-logo-section-menu {
+  width: 200px;
+  margin-left: -30px;
+}
+
+.button-candies-section-menu {
+  min-width: 150px;
+  min-height: 170px;
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: -170px;
+  margin-left: 640px;
+  border-style: none;
+  border-radius: 50px;
+  background-color: #FFFFFF00;
+  display: block;
+  white-space: nowrap;
+
+
+}
+
+.candies-address-section-menu {
+  font-size: 30px;
+  margin-top: -33px;
+  margin-left: 10px;
+  font-family: 'Libre Baskerville', serif;
+
+
+}
+
+.button-candies-section-menu:hover {
+  background-color: #FF3A00;
+  color: #FFFFFF;
+  white-space: nowrap;
+
+}
+
+.background-body {
+  background-image: url(../img/background-body-img.png);
+
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  width: 300px;
+  height: 300px;
+}
+
+
+.most-popular-foodheader-menu-seafood {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-left: 320px;
+  font-family: 'Libre Baskerville', serif;
+  display: inline-block;
+
+
+}
+
+
+
+.box-oneA {
+  max-width: 300px;
+  min-height: 450px;
+  border-radius: 25px;
+  margin-right: 20px;
+  min-width: 300px;
+  max-height: 450px;
+  box-shadow: 0px 20px 50px #B7B7B74D;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.box-twoA {
+  max-width: 265px;
+  min-width: 265px;
+  max-height: 220px;
+  min-height: 220px;
+  margin-left: 16px;
+  margin-top: 16px;
+  border-radius: 25px;
+  box-shadow: 0px 20px 50px #B7B7B74D;
+}
+
+.A1 {
+  background-image: url(../img/background-box-menu.jpg);
+  background-repeat: no-repeat;
+  background-size: 270px;
+  background-position: 0px -50px;
+
+}
+
+.A2 {
+  background-image: url(../img/background-box-menu-2.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: -10px -120px;
+}
+
+.A3 {
+  background-image: url(../img/background-box-menu-3.jpg);
+  background-repeat: no-repeat;
+  background-size: 290px;
+  background-position: 0px -150px;
+}
+
+
+.conteinar-menuA {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  max-width: 900px;
+  min-width: 900px;
+  max-height: 500px;
+  min-height: 500px;
+  margin-left: 100px;
+  margin-top: 300px;
+
+}
+
+.box-threeA {
+
+  max-width: 200px;
+  max-height: 50px;
+  min-height: 50px;
+  min-width: 200px;
+  margin-top: -35px;
+  border-radius: 10px;
+  background-color: #0000008A;
+  text-align: center;
+  font-family: 'Irish Grover', cursive;
+  white-space: nowrap;
+  color: #FFFFFF;
+
+  border-style: none;
+}
+
+.food-name-menu-scroll {
+  font-size: 30px;
+  margin-top: 4px;
+
+}
+
+.box-threeA:hover {
+
+  background-color: #FFFFFF94;
+  color: #000000;
+}
+
+
+
+.current-price {
+  font-family: 'Libre Baskerville',
+    serif;
+  font-size: 20px;
+  margin-top: 10px;
+  color: #000000;
+
+}
+
+.food-type {
+  font-size: 20px;
+  font-family: 'Libre Baskerville',
+    serif;
+  margin-top: -20px;
+}
+
+.food-description {
+  font-family: 'Libre Baskerville', ;
+  font-size: 20px;
+  margin-top: -23px;
+}
+
+.button-menu-add-to-card {
+
+  max-width: 100px;
+  min-width: 100px;
+  max-height: 30px;
+  min-height: 30px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  background-color: #FF4E00;
+  border-style: none;
+  font-family: 'Libre Baskerville',
+    serif;
+  display: block;
+  margin-top: -10px;
+  margin-left: 100px;
+}
+
+.button-menu-add-to-card:hover {
+  background-color: #FFFFFF;
+  border: 2px solid #FF4E00;
+  color: #000000;
+}
+
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.conteinar-menuA::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.conteinar-menuA {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+
+
+
+
+}
+
+.conteinar-content-border {
+  margin-top: 1100px;
+}
+
+.x-conteinar {
+
+  margin-top: -1650px;
+
+
+}
+
+.box-three {
+  border: 1px solid #FF6700;
+  width: fit-content;
+  padding: 0px 20px;
+  border-radius: 100px;
+  margin-top: -250px;
+  margin-left: -13px;
+  background: #FF6700;
+  box-shadow: 0px 20px 50px #00000015;
+
+}
+
+.price {
+
+  color: #FFFFFF;
+}
+
+
+
+.photo-special-seafood {
+  width: 900px;
+  margin-left: 50px;
+  height: 300px;
+  margin-top: -100px;
+}
+
+.vv {
+  display: flex;
+  width: fit-content;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+
+
+
+.button-A {
+  min-width: 270px;
+  max-width: 270px;
+  max-height: 270px;
+  min-height: 270px;
+  margin-right: 15px;
+  box-shadow: 0px 20px 50px #00000033;
+  border-radius: 50px;
+  border-style: none;
+}
+
+.cc {
+  display: flex;
+  width: fit-content;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.xa {
+
+  background-image: url(../img/logo1.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: -30px -70px;
+}
+
+.xb {
+  background-image: url(../img/logo2.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: -15px -70px;
+
+
+}
+
+.xc {
+  background-image: url(../img/logo3.jpg);
+  background-size: 280px;
+  background-position: -10px -70px;
+  background-repeat: no-repeat;
+
+
+}
+
+.xd {
+  background-image: url(../img/logo4.jpg);
+  background-size: 270px;
+  background-position: 0px -50px;
+  background-repeat: no-repeat;
+
+}
+
+.xe {
+  background-image: url(../img/logo5.jpg);
+  background-size: 270px;
+  background-repeat: no-repeat;
+  background-position: 0px -50px;
+
+
+}
+
+.xf {
+  background-image: url(../img/img/logo6.jpg);
+  background-size: 270px;
+  background-repeat: no-repeat;
+  background-position: 0px -50px;
+
+
+}
+
+
+.photo-special-seafood2 {
+  width: 900px;
+  height: 300px;
+  margin-left: 50px;
+  display: inline-block;
+  margin-top: 60px;
+}
+
+.spesial-dish-address {
+  margin-top: -230px;
+  margin-left: 620px;
+  white-space: nowrap;
+  font-family: 'Irish Grover', cursive;
+  font-size: 45px;
+  color: #edf8f2;
+}
+
+
+
+.conteinar-spesial-dish-para {
+  margin-top: -1220px;
+  margin-left: 480px;
+  text-align: center;
+  color: #FFFFFF;
+  white-space: nowrap;
+
+}
+
+.spesial-dish-para2 {
+  margin-top: -17px;
+
+
+}
+
+.spesial-dish-para3 {
+  margin-top: -17px;
+
+}
+
+.button-all-spesial-dish {
+  width: 60px;
+  background-color: #FF3A00;
+  color: #FFFFFF;
+  border-style: none;
+  border-radius: 25px;
+
+}
+
+.button-all-spesial-dish:hover {
+  background-color: #FFFFFF;
+  color: #FF3A00;
+
+}
+
+.dishe-name-one {
+  margin-top: -360px;
+  margin-left: 120px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 25px;
+  white-space: nowrap;
+
+}
+
+.dishe-price-one {
+  font-size: 20px;
+  margin-top: -10px;
+  margin-left: 120px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.first1-dish-cart {
+  height: 30px;
+  width: 100px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  background-color: #FF3A00;
+  border-style: none;
+  font-family: 'Libre Baskerville', serif;
+  box-shadow: 0px 20px 50px #00000040;
+
+}
+
+.first1-dish-cart:hover {
+  background-color: #FFFFFF;
+  color: #FF3A00;
+  border: 2px solid #FF3A00;
+}
+
+
+.cart {
+  margin-top: -45px;
+  margin-left: 240px;
+  width: 20px;
+
+
+}
+
+.dishe-name-two {
+  font-size: 25px;
+  margin-top: -65px;
+  font-family: 'Libre Baskerville', serif;
+  margin-left: 410px;
+
+}
+
+
+.dishe-price-two {
+  margin-top: -10px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+  margin-left: 420px;
+
+}
+
+.two-dish-cart {
+  margin-left: 290px;
+  height: 30px;
+  width: 100px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  background-color: #FF3A00;
+  border-style: none;
+  font-family: 'Libre Baskerville', serif;
+  box-shadow: 0px 20px 50px #00000040;
+}
+
+.two-dish-cart:hover {
+  background-color: #FFFFFF;
+  color: #FF3A00;
+  border: 2px solid #FF3A00;
+  display: inlinblock;
+}
+
+.dishe-name-three {
+  font-size: 25px;
+  margin-top: -65px;
+  font-family: 'Libre Baskerville', serif;
+  margin-left: 700px;
+}
+
+
+.dishe-price-three {
+  margin-top: -10px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+  margin-left: 700px;
+
+}
+
+.three-dish-cart {
+  margin-left: 580px;
+  height: 30px;
+  width: 100px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  background-color: #FF3A00;
+  border-style: none;
+  font-family: 'Libre Baskerville', serif;
+  box-shadow: 0px 20px 50px #00000040;
+}
+
+.three-dish-cart:hover {
+  background-color: #FFFFFF;
+  color: #FF3A00;
+  border: 2px solid #FF3A00;
+}
+
+.dishe-name-four {
+  margin-top: 305px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 25px;
+  margin-left: 120px;
+
+
+}
+
+.dishe-price-four {
+  margin-top: -10px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+  margin-left: 120px;
+
+}
+
+.four4-dish-cart {
+  height: 30px;
+  width: 100px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  background-color: #FF3A00;
+  border-style: none;
+  font-family: 'Libre Baskerville', serif;
+  box-shadow: 0px 20px 50px #00000040;
+}
+
+.four4-dish-cart:hover {
+  background-color: #FFFFFF;
+  color: #FF3A00;
+  border: 2px solid #FF3A00;
+}
+
+
+.dishe-name-five {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 25px;
+  margin-left: 420px;
+  margin-top: -65px;
+
+}
+
+.dishe-price-five {
+  margin-top: -10px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+  margin-left: 420px;
+
+}
+
+.five-dish-cart {
+  margin-left: 300px;
+  height: 30px;
+  width: 100px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  background-color: #FF3A00;
+  border-style: none;
+  font-family: 'Libre Baskerville', serif;
+  box-shadow: 0px 20px 50px #00000040;
+}
+
+.five-dish-cart:hover {
+  background-color: #FFFFFF;
+  color: #FF3A00;
+  border: 2px solid #FF3A00;
+}
+
+.dishe-name-six {
+  margin-top: -65px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 25px;
+  margin-left: 700px;
+
+}
+
+.dishe-price-six {
+  margin-top: -10px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+  margin-left: 700px;
+
+}
+
+
+.six-dish-cart {
+  margin-left: 580px;
+  height: 30px;
+  width: 100px;
+  border-radius: 25px;
+  color: #FFFFFF;
+  background-color: #FF3A00;
+  border-style: none;
+  font-family: 'Libre Baskerville', serif;
+  box-shadow: 0px 20px 50px #00000040;
+}
+
+.six-dish-cart:hover {
+  background-color: #FFFFFF;
+  color: #FF3A00;
+  border: 2px solid #FF3A00;
+}
+
+.pp {
+
+  margin-top: -30px;
+}
+
+.ii {
+  margin-top: 50px;
+  white-space: nowrap;
+
+}
+
+
+.spesial-dish-address2 {
+  margin-top: 55px;
+  margin-left: 600px;
+  white-space: nowrap;
+  font-family: 'Irish Grover', cursive;
+  font-size: 45px;
+  color: #edf8f2;
+}
+
+
+spesial-dish-address2 {
+  margin-top: -230px;
+  margin-left: 620px;
+  white-space: nowrap;
+  font-family: 'Irish Grover', cursive;
+  font-size: 45px;
+  color: #edf8f2;
+}
+
+
+
+.conteinar-spesial-dish-para2 {
+  margin-top: -25px;
+  margin-left: 480px;
+  text-align: center;
+  color: #FFFFFF;
+  white-space: nowrap;
+
+}
+
+.spesial-dish-para2-2 {
+  margin-top: -17px;
+
+
+}
+
+.spesial-dish-para3-3 {
+  margin-top: -17px;
+
+}
+
+.button-all-spesial-dish2 {
+  width: 60px;
+  background-color: #FF3A00;
+  color: #FFFFFF;
+  border-style: none;
+  border-radius: 25px;
+
+}
+
+.button-all-spesial-dish2:hover {
+  background-color: #FFFFFF;
+  color: #FF3A00;
+
+}
+
+
+.vv2 {
+  display: flex;
+  width: fit-content;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+
+
+.button-A2 {
+  min-width: 270px;
+  max-width: 270px;
+  max-height: 270px;
+  min-height: 270px;
+  margin-right: 15px;
+  box-shadow: 0px 20px 50px #00000033;
+  border-radius: 50px;
+  border-style: none;
+}
+
+.cc2 {
+  display: flex;
+  width: fit-content;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.xa2 {
+
+  background-image: url(../img/sweets-picture1.jpg);
+  background-repeat: no-repeat;
+  background-size: 350px;
+  background-position: -40px 0px;
+}
+
+.xb2 {
+  background-image: url(../img/img/sweets-picture2.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: -15px -30px;
+
+
+}
+
+.xc2 {
+  background-image: url(../img/img/sweets-picture3.jpg);
+  background-size: 300px;
+  background-position: -5px -120px;
+  background-repeat: no-repeat;
+
+
+}
+
+.xd2 {
+  background-image: url(../img/img/sweets-picture4.jpg);
+  background-size: 270px;
+  background-position: 0px -50px;
+  background-repeat: no-repeat;
+
+}
+
+.xe2 {
+  background-image: url(../img/img/sweets-picture5.jpg);
+  background-size: 270px;
+  background-repeat: no-repeat;
+  background-position: 0px -50px;
+
+
+}
+
+.xf2 {
+  background-image: url(../img/img/sweets-picture6.jpg);
+  background-size: 270px;
+  background-repeat: no-repeat;
+  background-position: 0px -50px;
+
+
+}
+
+
+.rr {
+  width: 250px;
+  height: 260px;
+  border-radius: 25px;
+  background-color: #FFFFFF;
+  margin-top: 100px;
+  margin-left: 100px;
+  border-style: none;
+    font-family: 'Irish Grover', cursive;
+
+  font-size: 25px;
+  box-shadow: 0px 20px 50px #0000003B;
+}
+
+.rr:hover {
+  background-color: #FF6400;
+  color: #FFFFFF;
+}

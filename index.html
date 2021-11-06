@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dreem Food</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.js" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+      <div class="coteinar">
+    <!--photo header background-->
+    <div class="photo-header-background">
+    </div>
+    <h1 class="header-addreds-one">Are you hungry? </h1>
+    <h1 class="header-addreds-two">Don't wait!</h1>
+    <h3 class="header-addreds-three">let's start watch the menu now</h3>
+    <button class="button-watch-menu" type="button">Watch menu
+    </button>
+    <div class="background-color-logoname"></div>
+    <h2 class="logoname-one">Dream</h2>
+    <h2 class="logoname-two">Food</h2>
+    <img class="logo" src="img/logo.png" alt="logo" />
+    <button class="button-facebook" type="button"> <img class="Facebook-logo" src="img/facebook-logo.png" alt="" /></button>
+    <button class="button-location" type="button">
+      <img class="location-logo" src="img/location.png" alt="logo location" />
+    </button>
+    <button class="button-phone" type="button">
+      <img class="phone-logo" src="img/phone.png" alt="phone logo" />
+    </button>
+    <!--Services buttons -->
+    <div class="btn-parant">
+    <button id="delivery" onclick="imgClicked(this, 'delivery')" class="delivery-menu btn-sa active" type="button">
+      <img class="delivery-logo-img" src="img/delivery-logo.png" alt="delivery logo" />
+      <h1 class="features-delivery-address">Delivery</h1>
+      <p class="features-delivery">
+        There is a delivery service
+        <br />for your convenience</p>
+    </button>
+    <button id="phone" onclick="imgClicked(this, 'phone')" class="phone-menu btn-sa" type="button">
+      <img class="phone-logo-img" src="img/phone-logo.png" alt="phone logo" />
+      <h1 class="features-phone-address">Phone</h1>
+      <p class="features-phone-para"> You can contact us in
+        <br />case of complaint</p>
+    </button>
+    <button id="menu" onclick="imgClicked(this, 'menu')" class="menu btn-sa" type="button">
+      <img class="menu-logo-img" src="img/menu-logo.png" alt="menu logo" />
+      <h1 class="features-menu-address">Menu</h1>
+      <p class="features-menu-para"> You can watch the menu
+        <br />to help you choose
+        <br />your food</p>
+    </button>
+    <button id="location" onclick="imgClicked(this, 'location')" class="location-menu btn-sa" type="button">
+      <img class="location-logo-img" src="img/location-logo.png" alt="delivery logo" />
+      <h1>Location</h1>
+    </button>
+    </div>
+    <!--hidden information-->
+    <div id="delivery-a" class="isHidden delivery-data">
+      <h1 class="delivery-data-address"> Delivery</h1>
+      <p class="para-delivery-data">delivery ay kalam fe el7mam
+        <br /> bla bla bla sffhhy
+      </p>
+      <button class="delivery-button-data" type="button">More</button>
+    </div>
+    <div id="phone-a" class="isHidden phone-data">
+      <h1 class="phone-data-address">Phone</h1>
+      <p class="para-phone-data">Phone ay kalam fe el7mam
+        <br /> bla bla bla sffhhy</p>
+      <button class="phone-button-data" type="button">More</button>
+    </div>
+    <div id="menu-a" class="isHidden menu-data">
+      <h1 class="menu-data-address">Menu</h1>
+      <p class="para-menu-data">Menu ay kalam fe el7mam
+        <br /> bla bla bla sffhhy</p>
+      <button class="menu-button-data" type="button">More</button>
+    </div>
+    <div id="location-a" class="isHidden location-data">
+      <h1 class="location-data-address">Location</h1>
+      <p class="para-location-data">location ay kalam fe el7mam
+        <br /> bla bla bla sffhhy</p>
+      <button class="location-button-data" type="button">More</button>
+    </div>
+      <script src="jquery-3.6.0.slim.min.js"></script>
+
+    <script src="main.js">
+  </script>
+  <!--Buttons to go to the menu determinant-->
+  <div class="section-menu">
+    <button class="button-pizza-section-menu" type="button">
+      <img class="pizza-logo-menu" src="img/pizza.png" alt="pizza logo" />
+      <h5 class="pizza-address-section-menu">Pizza</h5>
+    </button>
+  </div>
+  <button class="button-seafood-section-menu" type="button">
+    <img class="seafood-logo-section-menu" src="img/sea-food-logo-menu.png" alt="seafood logo" />
+    <h5 class="seafood-address-section-menu">Seafood</h5>
+  </button>
+  <button class="button-candies-section-menu" type="button">
+    <img class="candies-logo-section-menu" src="img/candies-logo-menu.png" alt="candies logo" />
+    <h5 class="candies-address-section-menu">Candies</h5>
+  </button>
+  <h2 class="menu-header-section-menu">Menu</h2>
+  <!-- Famous food menu-->
+  <div class="conteinar-menuA">
+    <div class="box-oneA">
+      <div class="box-twoA A1">
+      </div>
+      <button class="box-threeA">
+        <h2 class="food-name-menu-scroll">Food name</h2>
+      </button>
+      <div class="the-price">
+        <h4 class="current-price">$30,00</h4>
+        <h4 class="food-type">Food type</h4>
+        <p class="food-description">Description of the meal
+          <br />and what is the quantity </p>
+        <button class="button-menu-add-to-card" type="button">Add to cart</button>
+      </div>
+    </div>
+    <div class="box-oneA">
+      <div class="box-twoA A2">
+      </div>
+      <button class="box-threeA">
+        <h2 class="food-name-menu-scroll">Food name</h2>
+      </button>
+      <div class="the-price">
+        <h4 class="current-price">$30,00</h4>
+        <h4 class="food-type">Food type</h4>
+        <p class="food-description">Description of the meal
+          <br />and what is the quantity </p>
+        <button class="button-menu-add-to-card" type="button">Add to cart</button>
+      </div>
+    </div>
+    <div class="box-oneA">
+      <div class="box-twoA A3">
+      </div>
+      <button class="box-threeA">
+        <h2 class="food-name-menu-scroll">Food name</h2>
+      </button>
+      <div class="the-price">
+        <h4 class="current-price">$20,00</h4>
+        <h4 class="food-type">Food type</h4>
+        <p class="food-description">Description of the meal
+          <br />and what is the quantity </p>
+        <button class="button-menu-add-to-card" type="button">Add to cart</button>
+      </div>
+    </div>
+    <div class="box-oneA">
+      <div class="box-twoA A4">
+      </div>
+      <button class="box-threeA">
+        <h2 class="food-name-menu-scroll">Food name</h2>
+      </button>
+      <div class="the-price">
+        <h4 class="current-price">$28,00</h4>
+        <h4 class="food-type">Food type</h4>
+        <p class="food-description">Description of the meal
+          <br />and what is the quantity </p>
+        <button class="button-menu-add-to-card" type="button">Add to cart</button>
+      </div>
+    </div>
+    <div class="box-oneA">
+      <div class="box-twoA A5">
+      </div>
+      <button class="box-threeA">
+        <h2 class="food-name-menu-scroll">Food name</h2>
+      </button>
+      <div class="the-price">
+        <h4 class="current-price">$17,00</h4>
+        <h4 class="food-type">Food type</h4>
+        <p class="food-description">Description of the meal
+          <br />and what is the quantity </p>
+        <button class="button-menu-add-to-card" type="button">Add to cart</button>
+      </div>
+    </div>
+    <div class="box-oneA">
+      <div class="box-twoA A6">
+      </div>
+      <button class="box-threeA">
+        <h2 class="food-name-menu-scroll">Food name</h2>
+      </button>
+      <div class="the-price">
+        <h4 class="current-price">$30,00</h4>
+        <h4 class="food-type">Food type</h4>
+        <p class="food-description">Description of the meal
+          <br />and what is the quantity </p>
+        <button class="button-menu-add-to-card" type="button">Add to cart</button>
+      </div>
+    </div>
+    <div class="box-oneA">
+      <div class="box-twoA A7">
+      </div>
+      <button class="box-threeA">
+        <h2 class="food-name-menu-scroll">Food name</h2>
+      </button>
+      <div class="the-price">
+        <h4 class="current-price">$35,00</h4>
+        <h4 class="food-type">Food type</h4>
+        <p class="food-description">Description of the meal
+          <br />and what is the quantity </p>
+        <button class="button-menu-add-to-card" type="button">Add to cart</button>
+      </div>
+    </div>
+    <div class="box-oneA">
+      <div class="box-twoA A8">
+      </div>
+      <button class="box-threeA">
+        <h2 class="food-name-menu-scroll">Food name</h2>
+      </button>
+      <div class="the-price">
+        <h4 class="current-price">$15,00</h4>
+        <h4 class="food-type">Food type</h4>
+        <p class="food-description">Description of the meal
+          <br />and what is the quantity </p>
+        <button class="button-menu-add-to-card" type="button">Add to cart</button>
+      </div>
+    </div>
+    <div class="box-oneA">
+      <div class="box-twoA A9">
+      </div>
+      <button class="box-threeA">
+        <h2 class="food-name-menu-scroll">Food name</h2>
+      </button>
+      <div class="the-price">
+        <h4 class="current-price">$22,00</h4>
+        <h4 class="food-type">Food type</h4>
+        <p class="food-description">Description of the meal
+          <br />and what is the quantity </p>
+        <button class="button-menu-add-to-card" type="button">Add to cart</button>
+      </div>
+    </div>
+  </div>
+  <div class="pp">
+    <div class="sea-food-address">
+      <h2 class="most-popular-foodheader-menu-seafood">
+        Most Popular Food
+      </h2>
+    </div>
+    <div class="ii">
+      <div>
+        <img class="photo-special-seafood" src="img/img/special-seafood.png" alt="" />
+      </div>
+      <h2 class="spesial-dish-address">Special dish</h2>
+      <div class="vv">
+        <button class="button-A xa" type="button"></button>
+        <button class="button-A xb" type="button"></button>
+        <button class="button-A xc" type="button"></button>
+      </div>
+      <div class="cc">
+        <button class="button-A xd" type="button"></button>
+        <button class="button-A xe" type="button"></button>
+        <button class="button-A xf" type="button"></button>
+      </div>
+      <div>
+        <img class="photo-special-seafood2" src="img/img/special-seafood22.png" alt="" />
+        <div class="conteinar-spesial-dish-para">
+          <p class="spesial-dish-para1"> Our finest seafood dishes</p>
+          <p class="spesial-dish-para2">Cooked with passion </p>
+          <p class="spesial-dish-para3">for fish lovers</p>
+          <button class="button-all-spesial-dish" type="button">All</button>
+        </div>
+      </div>
+      <div class="First-dish-information ">
+        <h1 class="dishe-name-one">Food name</h1>
+        <h2 class="dishe-price-one">$25,00</h2>
+      </div>
+      <div class="cart">
+        <button class="first1-dish-cart " type="button">Add to cart</button>
+      </div>
+      <div class="two-dish-information ">
+        <div>
+          <h1 class="dishe-name-two">Food name</h1>
+        </div>
+        <div>
+          <h2 class="dishe-price-two">$15,00</h2>
+        </div>
+      </div>
+      <div class="cart">
+        <button class="two-dish-cart " type="button">Add to cart</button>
+      </div>
+      <div class="three-dish-information ">
+        <div>
+          <h1 class="dishe-name-three">Food name</h1>
+        </div>
+        <div>
+          <h2 class="dishe-price-three">$30,00</h2>
+        </div>
+      </div>
+      <div class="cart">
+        <button class="three-dish-cart " type="button">Add to cart</button>
+      </div>
+      <div class="four-dish-information ">
+        <div>
+          <h1 class="dishe-name-four">Food name</h1>
+        </div>
+        <div>
+          <h2 class="dishe-price-four">$19,00</h2>
+        </div>
+      </div>
+      <div class="cart">
+        <button class="four4-dish-cart " type="button">Add to cart</button>
+      </div>
+      <div class="five-dish-information ">
+        <div>
+          <h1 class="dishe-name-five">Food name</h1>
+        </div>
+        <div>
+          <h2 class="dishe-price-five">$27,00</h2>
+        </div>
+      </div>
+      <div class="cart">
+        <button class="five-dish-cart " type="button">Add to cart</button>
+      </div>
+      <div class="six-dish-information ">
+        <div>
+          <h1 class="dishe-name-six">Food name</h1>
+        </div>
+        <div>
+          <h2 class="dishe-price-six">$11,00</h2>
+        </div>
+      </div>
+      <div class="cart">
+        <button class="six-dish-cart " type="button">Add to cart</button>
+      </div>
+    </div>
+    <h2 class="spesial-dish-address2">Special dessert</h2>
+    <div class="conteinar-spesial-dish-para2">
+      <p class="spesial-dish-para2-1"> Our finest seafood dishes</p>
+      <p class="spesial-dish-para2-2">Cooked with passion </p>
+      <p class="spesial-dish-para3-3">for fish lovers</p>
+      <button class="button-all-spesial-dish2" type="button">All</button>
+    </div>
+    <div class="vv2">
+      <button class="button-A2 xa2" type="button"></button>
+      <button class="button-A2 xb2" type="button"></button>
+      <button class="button-A2 xc2" type="button"></button>
+    </div>
+    <div class="cc2">
+      <button class="button-A2 xd2" type="button"></button>
+      <button class="button-A2 xe2" type="button"></button>
+      <button class="button-A2 xf2" type="button"></button>
+    </div>
+    <div class="">
+      <div class="">
+        <button class="rr" type="button"> ghsnsh</button>
+      </div>
+    </div>
+
+    </body>
+
+</html>
