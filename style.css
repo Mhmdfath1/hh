@@ -11,7 +11,7 @@ body {
   border: 1px solid #000000;
   margin-top: -8px;
   margin-left: -8px;
-  background-image: url(../img/header-background.jpg);
+  background-image: url(../header-background.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   border-style: none;
@@ -626,7 +626,7 @@ body {
 }
 
 .background-body {
-  background-image: url(../img/background-body-img.png);
+  background-image: url(../background-body-img.png);
 
   background-repeat: no-repeat;
   background-size: 1000px;
@@ -671,7 +671,7 @@ body {
 }
 
 .A1 {
-  background-image: url(../img/background-box-menu.jpg);
+  background-image: url(../background-box-menu.jpg);
   background-repeat: no-repeat;
   background-size: 270px;
   background-position: 0px -50px;
@@ -679,14 +679,14 @@ body {
 }
 
 .A2 {
-  background-image: url(../img/background-box-menu-2.jpg);
+  background-image: url(../background-box-menu-2.jpg);
   background-repeat: no-repeat;
   background-size: 300px;
   background-position: -10px -120px;
 }
 
 .A3 {
-  background-image: url(../img/background-box-menu-3.jpg);
+  background-image: url(../background-box-menu-3.jpg);
   background-repeat: no-repeat;
   background-size: 290px;
   background-position: 0px -150px;
@@ -867,14 +867,14 @@ body {
 
 .xa {
 
-  background-image: url(../img/logo1.jpg);
+  background-image: url(../logo1.jpg);
   background-repeat: no-repeat;
   background-size: 300px;
   background-position: -30px -70px;
 }
 
 .xb {
-  background-image: url(../img/logo2.jpg);
+  background-image: url(../logo2.jpg);
   background-repeat: no-repeat;
   background-size: 300px;
   background-position: -15px -70px;
@@ -883,7 +883,7 @@ body {
 }
 
 .xc {
-  background-image: url(../img/logo3.jpg);
+  background-image: url(../logo3.jpg);
   background-size: 280px;
   background-position: -10px -70px;
   background-repeat: no-repeat;
@@ -892,7 +892,7 @@ body {
 }
 
 .xd {
-  background-image: url(../img/logo4.jpg);
+  background-image: url(../logo4.jpg);
   background-size: 270px;
   background-position: 0px -50px;
   background-repeat: no-repeat;
@@ -900,7 +900,7 @@ body {
 }
 
 .xe {
-  background-image: url(../img/logo5.jpg);
+  background-image: url(../logo5.jpg);
   background-size: 270px;
   background-repeat: no-repeat;
   background-position: 0px -50px;
@@ -909,7 +909,7 @@ body {
 }
 
 .xf {
-  background-image: url(../img/img/logo6.jpg);
+  background-image: url(../logo6.jpg);
   background-size: 270px;
   background-repeat: no-repeat;
   background-position: 0px -50px;
@@ -1287,14 +1287,14 @@ spesial-dish-address2 {
 
 .xa2 {
 
-  background-image: url(../img/sweets-picture1.jpg);
+  background-image: url(../sweets-picture1.jpg);
   background-repeat: no-repeat;
   background-size: 350px;
   background-position: -40px 0px;
 }
 
 .xb2 {
-  background-image: url(../img/img/sweets-picture2.jpg);
+  background-image: url(../sweets-picture2.jpg);
   background-repeat: no-repeat;
   background-size: 300px;
   background-position: -15px -30px;
